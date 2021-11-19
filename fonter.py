@@ -40,9 +40,9 @@ for file in f:
         print("      weight: 500")
     elif args[1].find("semibold") != -1:
         print("      weight: 600")
-    elif args[1].find("bold") != -1:
-        print("      weight: 700")
     elif args[1].find("extrabold") != -1:
         print("      weight: 800")
+    elif args[1].find("bold") != -1:
+        print("      weight: 700")
     elif args[1].find("black") != -1:
         print("      weight: 900")
